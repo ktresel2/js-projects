@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(90deg, #686de0, rgb(224, 118, 118));
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    background-image: linear-gradient(lightblue, steelblue);
+    text-align: center;
+    justify-content: center;
+    padding: 50px 100px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(55,0,0,0.8);
+}
+
+h3 {
+    font-size: 20px;
+    color: maroon;
+    padding: 10px 30px;
+    border: 4px dotted rgba(233,15,15,0.3);
+    opacity: 0.9;
+}
+
+.joke {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+button {
+    background-color: rgba(197, 112, 142, 0.527);
+    border: none;
+    outline: none;
+    padding: 30px 50px;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 7px rgba(80, 49, 8, 0.795);
+    cursor: pointer;
+    transition: 0.2s ease;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+button:active {
+    border: 0;
+    font-weight: 700;
+    outline: none;
+    transform: scale(0.9);
+    box-shadow: -5px -5px 100px 20px rgba(80, 49, 8, 0.795), 5px 5px 100px 20px rgba(80, 49, 8, 0.795), 0 0 20px 0px rgba(80, 49, 8, 0.795) inset;
+
+}
